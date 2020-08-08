@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- <typeAliases>
+		<package name="com.sosohanya.leveldiary.account"/>
+	</typeAliases> -->
+	<typeAliases>
+		<!--  <typeAlias type="com.gaon.security.db.mapper1.FilechkMriaMapper" alias="MariaMapper"/>-->
+		<typeAlias type="com.gaon.security.db.mapper2.FilechkMysqlMapper" alias="MysqlMapper"/>
+	</typeAliases>
+	<!-- 매핑정보 추가 -->
+	<mappers>
+		<!-- <mapper resource="mybatis/mapper/maria/Filechecker_mariadb.xml" /> -->
+		<mapper resource="mybatis/mapper/mysql/Filechecker_mysql.xml" />
+	</mappers>
+</configuration>
