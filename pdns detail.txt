@@ -1,0 +1,14 @@
+<pdns>
+1. 설치 파일
+pdns-4.0.6 #특정버전 필수
+pdns-recursor (yum install)
+pdns-backend-mysql-4.0.6
+rsyslog
+lua-lib 파일
+mysql & php, mysql db 생성
+jar 배포(로그 저장)
+
+2. 설정
+pdns.conf
+recursor.conf
+rsyslog.conf
